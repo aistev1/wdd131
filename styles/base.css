@@ -1,18 +1,83 @@
-body{
-    background-color: rgb(15, 65, 2);
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+#course-title {
+  display: block;
+  font-size: 1.5rem;
+}
+
 header span {
     display: block;
 }
 nav {
     display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
 }
+nav a {
+    color: rgb(214, 66, 17);
+    padding: 0.3rem 0.6rem;
+}
+
+nav a:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
 nav :hover{
     color: beige;
 }
+
 main {
-    width: 50%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  
+  gap: 1.5rem;
 }
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* first card bigger */
+  gap: 1.5rem;
+}
+
 .card {
-    display: grid;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+
+section img{
+    width: 100px;
+}
+
+.about-me {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
 }
