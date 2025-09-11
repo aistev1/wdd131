@@ -32,7 +32,7 @@ nav a {
 
 nav a:hover {
 	text-decoration: none;
-	background-color: #eee;
+	background-color: #61575f;
 	color: #000;
 }
 
@@ -44,16 +44,16 @@ nav li:first-child{
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
-    height: 250px;
+    height: 70vh;
     z-index: 999;
-    background-color: #a71717;
+    background-color: #046f6a;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     backdrop-filter: blur(10px);
+    width: 50%;
 }
 
 .sidebar li {
@@ -106,4 +106,7 @@ h1{
 .hideOnMobile{
     display: none;
 }
-
+.close-button:hover {
+    color: #000000;
+    background-color: aqua;
+}
