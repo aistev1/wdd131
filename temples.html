@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temples - Stephen Isiko</title>
+    <meta name="description" content="designing this temple website -  Stephen" />
+    <meta name="author" content="Stephen Isiko" />
+    <link rel="stylesheet" href="styles/temples.css" />
+    <link rel="stylesheet" href="styles/temples-large.css" />
+    <script src="scripts/temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h2>Temple Album</h2>
+        <a id="menu" href="@"></a>
+
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><img src="images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Close"></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="#">Home</a></li>
+                <li class="hideOnMobile"><a href="#">Old</a></li>
+                <li class="hideOnMobile"><a href="#">New</a></li>
+                <li class="hideOnMobile"><a href="#">Large</a></li>
+                <li class="hideOnMobile"><a href="#">Small</a></li>
+                <li class="menu-button" onclick="showSidebar()"><a href="#"><img src="images/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section class="gallery">
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Isiko Stephen, Uganda</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
