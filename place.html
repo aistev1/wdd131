@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +13,19 @@
   <header>
     <h1>Uganda</h1>
   </header>
-   <div class="separator"></div>
+
+  <!-- Green separator -->
+  <div class="separator"></div>
+
   <main>
-    <!-- Hero -->
+    <!-- Hero section -->
     <section class="hero">
       <picture>
-  <source srcset="images/place-hero.webp" media="(min-width: 768px)">
-  <img src="images/place-hero.webp" alt="Uganda Landscape">
-</picture>
+        <source srcset="images/place-hero.webp" media="(min-width: 768px)">
+        <img src="images/place-hero.webp" alt="Uganda Landscape">
+      </picture>
 
-
-      <!-- Data section -->
+      <!-- Data Section -->
       <section class="data">
         <h2>Data</h2>
         <ul>
@@ -35,14 +37,11 @@
         </ul>
       </section>
 
-      <!-- Weather section -->
+      <!-- Weather Section -->
       <section class="weather">
-        <h2>Weather <span class="icon"></span>
-        </h2>
-
-        <div class="weather-icon"></div>
+        <h2>Weather <span class="icon"></span></h2>
+        <!-- Mobile SVG icon -->
         <img src="images/mobile-weather.svg" alt="Weather Icon" class="weather-icon">
-
         <p>Temperature: <span id="temp">28</span> °C</p>
         <p>Wind Speed: <span id="speed">10</span> km/h</p>
         <p>Wind Chill: <span id="chill"></span></p>
