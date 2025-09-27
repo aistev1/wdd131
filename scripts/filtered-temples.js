@@ -110,13 +110,13 @@ const temples = [
 const templeContainer = document.getElementById("temple-cards");
 
 function displayTemples(templeArray) {
-  templeContainer.innerHTML = ""; // clear container
+  templeContainer.innerHTML = "";
   templeArray.forEach((temple) => {
     const card = document.createElement("div");
     card.className = "temple-card";
     
     card.innerHTML = `
-      <h2>${temple.name}</h2>
+      <h2>${temple.templeName}</h2>
       <p><strong>Location:</strong> ${temple.location}</p>
       <p><strong>Dedicated:</strong> ${temple.dedicated}</p>
       <p><strong>Area:</strong> ${temple.area.toLocaleString()} sq ft</p>

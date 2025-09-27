@@ -97,6 +97,15 @@ main {
   display: block;
 }
 
+.temple-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1px; /* optional: slightly rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* shadow effect */
+}
+
+
 
 footer {
   text-align: center;
