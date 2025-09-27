@@ -127,7 +127,6 @@ function displayTemples(templeArray) {
   });
 }
 
-// initially display all temples
 displayTemples(temples);
 
 

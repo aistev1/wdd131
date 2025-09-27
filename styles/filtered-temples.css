@@ -81,8 +81,8 @@ main {
 
 .temple-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 20px; /* spacing between cards */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
 }
 
 .temple-card {
@@ -101,8 +101,8 @@ main {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 1px; /* optional: slightly rounded corners */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* shadow effect */
+  border-radius: 1px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
 }
 
 
