@@ -18,8 +18,10 @@
     <!-- Hero -->
     <section class="hero">
       <picture>
-        <img src="images/place-hero.webp" alt="Uganda Landscape">
-      </picture>
+  <source srcset="images/place-hero.webp" media="(min-width: 768px)">
+  <img src="images/place-hero.webp" alt="Uganda Landscape">
+</picture>
+
 
       <!-- Data section -->
       <section class="data">
@@ -35,8 +37,12 @@
 
       <!-- Weather section -->
       <section class="weather">
-        <h2>Weather <span class="icon"></span></h2>
+        <h2>Weather <span class="icon"></span>
+        </h2>
+
         <div class="weather-icon"></div>
+        <img src="images/mobile-weather.svg" alt="Weather Icon" class="weather-icon">
+
         <p>Temperature: <span id="temp">28</span> °C</p>
         <p>Wind Speed: <span id="speed">10</span> km/h</p>
         <p>Wind Chill: <span id="chill"></span></p>
