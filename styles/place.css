@@ -1,0 +1,144 @@
+/* Global styles */
+:root {
+    --primary-color: #ab0a0a;
+    /* green - Uganda theme */
+    --secondary-color: #1d7e09;
+    /* yellow */
+    --accent-color: #d32f2f;
+    /* red */
+    --text-color: #333;
+    --bg-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Green separator between header and hero */
+
+
+
+/* Main flex to push footer */
+main {
+    flex: 1;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+}
+
+/* Info sections overlapping hero */
+.data,
+.weather {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 667px) {
+
+    .data,
+    .weather {
+        position: static;
+        margin: 1rem auto;
+        width: 90%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    li,
+    p {
+        text-align: center;
+        list-style: none;
+    }
+
+    /* Mobile SVG weather icon */
+    .weather-icon {
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 1rem auto;
+        background-image: url("../images/mobile-weather.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+/* Wide screens: data top-left, weather bottom-right */
+@media (min-width: 668px) {
+    .data {
+        top: 10%;
+        left: 5%;
+        width: 30%;
+    }
+
+    .weather {
+        bottom: 10%;
+        right: 5%;
+        width: 30%;
+    }
+
+    h2 {
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 10px 60px;
+        display: inline-block;
+        position: relative;
+        left: -30px;
+    }
+
+    /* Hide mobile SVG */
+    .weather-icon {
+        display: none;
+    }
+
+    /* Emoticon for wide screens */
+    .weather h2::after {
+        content: " ⛅";
+        margin-left: 8px;
+    }
+
+    .separator {
+    width: 100%;
+    height: 15px; /* thickness of the separator */
+    background-color: var(--secondary-color); /* green */
+}
+}
+
+/* Footer */
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
