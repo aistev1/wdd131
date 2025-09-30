@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -50,7 +50,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* Wireframe Styles */
 .wireframe {
   border: 2px dashed #D4AF37;
   margin: 1rem 0;
