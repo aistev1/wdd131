@@ -1,0 +1,81 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+header {
+  background: #000000;
+  color: #D4AF37;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+header .tagline {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #D4AF37;
+  border-bottom: 2px solid #D4AF37;
+  padding-bottom: 0.25rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+footer {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Wireframe Styles */
+.wireframe {
+  border: 2px dashed #D4AF37;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+}
+
+.wireframe .header,
+.wireframe .hero,
+.wireframe .content,
+.wireframe .footer,
+.wireframe .content-grid > div {
+  border: 1px solid #000000;
+  margin: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+.wireframe.desktop .content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.wireframe.mobile .content {
+  height: 60px;
+}
