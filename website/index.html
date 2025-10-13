@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocoa Child Organization</title>
+    <meta name="description" content="Designing this cocoa child organization website" />
+    <meta name="author" content="Stephen Isiko" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Cocoa Child</h1>
+      <a id="menu" href="@"></a>
+
+      <nav>
+        <ul class="sidebar">
+          <li class="close-button" onclick="hideSidebar()">
+            <a href="#"
+              ><img
+                src="images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="Close"
+            /></a>
+          </li>
+          <li><a href="index">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+          <li class="hideOnMobile"><a href="donate.html">Donate</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><img
+                src="images/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="Menu"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="home-title">
+        <h2>COCOA CHILD FOUNDATION</h2>
+        <p>This is our organization</p>
+        <a href="donate.html"><button>Donate Now</button></a>
+      </div>
+      <h2>Welcome To Our Organization Website</h2>
+      <div class="org-desc">
+        <div>
+          <img src="images/13.jpg" alt="Organization image" />
+        </div>
+        <div>
+          <h3>Our Vision</h3>
+          <p>To be able to fee 100 children</p>
+          <h3>Our mission</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fuga
+            officiis eaque asperiores corporis, animi doloribus rem vero! Hic,
+            placeat consequuntur! Tempora esse provident neque nulla fugiat
+            minus officia odio?
+          </p>
+          <h3>Our Core Values</h3>
+          <ul>
+            <li>Honesty</li>
+            <li>Honesty</li>
+            <li>Honesty</li>
+          </ul>
+          <a href="about.html"><button>Learn more</button></a>
+        </div>
+      </div>
+
+      <h2>Our Children</h2>
+      <p>Some of the kids at our organization</p>
+
+      <section class="gallery">
+        <figure>
+          <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+          <figcaption>Nalunkuuma Angella</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+          <figcaption>Mukita Gerald</figcaption>
+        </figure>
+        <figure>
+          <img src="images/temple-pic.jpg" alt="Salt Lake Temple exterior" />
+          <figcaption>Nankabirwa Prossy</figcaption>
+        </figure>
+      </section>
+      <div class="impact">
+        <h2>Our Impact</h2>
+        <p>See how we have impacted</p>
+        <div class="impact-sec">
+          <div>
+            <h2>50 +</h2>
+            <p>Children Now</p>
+          </div>
+          <div>
+            <h2>4+</h2>
+            <p>Years of existence</p>
+          </div>
+          <div>
+            <h2>$100,000</h2>
+            <p>Invested</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;<span id="currentyear"></span> Isiko Stephen, Uganda</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate</title>
+    <meta name="description" content="Designing this cocoa child organization website donation page" />
+    <meta name="author" content="Stephen Isiko" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Cocoa Child</h1>
+      <a id="menu" href="@"></a>
+
+      <nav>
+        <ul class="sidebar">
+          <li class="close-button" onclick="hideSidebar()">
+            <a href="#"
+              ><img
+                src="images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="Close"
+            /></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+          <li class="hideOnMobile"><a href="donate.html">Donate</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><img
+                src="images/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="Menu"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="donate-title">
+        <h2>DONATE</h2>
+        <p>Thank you for your interest in doanting to us</p>
+      </div>
+
+      <h2>"Every donation is welcome!"</h2>
+      <div class="impact">
+        <p>You can use the information given below to complete the donation please.</p>
+        <div class="impact-sec">
+          <div>
+            <h2>Bank Account</h2>
+            <p>Bank Name: Stanbic Bank Uganda</p>
+            <p>Account Number: 32422323232323</p>
+            <p>Accont Name: Cocoa child Organization</p>
+          </div>
+          <div>
+            <h2>Airtel Mobile Money</h2>
+            <p>Wallet Number: 755018060</p>
+            <p>Wllet Name: Cocoa child Organization</p>
+            <p>Branch Name: Kampala</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;<span id="currentyear"></span> Isiko Stephen, Uganda</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
