@@ -130,7 +130,7 @@ h1 {
 .home-title {
   width: 100%;
   height: 500px;
-  background-image: url('/images/14.jpg');
+  background-image: url('../images/14.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ h1 {
 .donate-title {
   width: 100%;
   height: 500px;
-  background-image: url('/images/16.jpg');
+  background-image: url('../images/16.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ h1 {
 .about-title {
   width: 100%;
   height: 500px;
-  background-image: url('/images/1.jpg');
+  background-image: url('../images/1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ h1 {
 .contacts-title {
   width: 100%;
   height: 500px;
-  background-image: url('/images/9.jpg');
+  background-image: url('../images/9.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -232,7 +232,7 @@ li {
 }
 
 .impact {
-  background-image: url(/images/5.jpg);
+  background-image: url(../images/5.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 400px;
@@ -294,6 +294,13 @@ button {
   cursor: pointer;
   font-size: 1rem;
 }
+.donation-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
 
 button:hover {
   background-color: #555;
