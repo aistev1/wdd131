@@ -19,7 +19,6 @@ function hideSidebar(){
 
 
 
-// =============== EXTRA FEATURES FOR W06 PROJECT ===================
 
 // 1️⃣ Create an object representing the organization
 const organization = {
