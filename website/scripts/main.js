@@ -17,13 +17,16 @@ function hideSidebar(){
 
 }
 
-
 const organization = {
   name: "Cocoa Child Organization",
   mission: "Helping kids and families grow through love, care, and education. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fuga officiis eaque asperiores corporis, animi doloribus rem vero! Hic, placeat consequuntur! Tempora esse provident neque nulla fugiat minus officia odio?",
   contactEmail: "info@cocoachild.org"
 };
-document.getElementById("orgMission").textContent = organization.mission;
+
+const missionElement = document.getElementById("orgMission");
+if (missionElement) {
+  missionElement.textContent = organization.mission;
+}
 
 const donationOptions = [10, 25, 50, 100];
 const donationMessage = donationOptions.map(amount => `Donate $${amount}`).join(" | ");
