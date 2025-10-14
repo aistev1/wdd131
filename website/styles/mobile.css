@@ -23,50 +23,38 @@
     .donation-button,
     .contact-details {
         flex-direction: column;
-        /* Stack vertically */
         align-items: center;
-        /* Center items */
         text-align: center;
-        /* Center text */
     }
 
     .org-desc div {
         width: 90%;
-        /* Make each div narrower */
         margin-bottom: 20px;
-        /* Space between stacked items */
     }
 
     .org-desc img {
         width: 100%;
-        /* Make image responsive */
         height: auto;
-        /* Maintain aspect ratio */
     }
 
     .index-about-button {
         margin-top: 10px;
-        /* Space above button */
     }
 
     .org-desc {
         display: flex !important;
-        /* make sure flex applies */
         flex-direction: column !important;
-        /* stack vertically */
         align-items: center !important;
         text-align: center !important;
     }
 
     .org-desc>div {
         width: 90% !important;
-        /* take almost full width */
         margin-bottom: 20px !important;
     }
 
     .org-desc img {
         width: 100% !important;
-        /* scale images to container width */
         height: auto !important;
     }
 

@@ -70,15 +70,6 @@ nav li:first-child {
   width: 100%;
 }
 
-/* main {
-  max-width: 900px;
-  margin: 1rem auto;
-  padding: 1rem;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-} */
-
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -244,7 +235,7 @@ li {
 
 h2 {
   text-align: center;
-  color: #333;
+  color: #f06b0c;
 }
 
 form {
