@@ -306,3 +306,17 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+.button-link {
+  border: 1.5px solid rgb(248, 102, 11);
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #f06b0c;
+}
+.button-link:hover {
+  border: 1.5px solid rgb(116, 70, 41);
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #825739;
+}
